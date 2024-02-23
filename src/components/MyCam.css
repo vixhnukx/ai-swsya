@@ -1,0 +1,44 @@
+.camera-module {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .video-container {
+    width: 320px;
+    height: 240px;
+    overflow: hidden;
+    border: 2px solid #cccccc7c;
+    margin-bottom: 10px;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .start-button,
+  .end-button,
+  .mute-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .start-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .end-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .mute-button {
+    background-color: #008CBA;
+    color: white;
+  }
+  
